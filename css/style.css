@@ -1,0 +1,70 @@
+header{
+    border-bottom: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size: 2em;
+}
+
+.header_links{
+    justify-content: space-between;
+}
+
+.header_home, .header_about, .header_courses{
+    display: inline;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.header_home a, .header_about a, .header_courses a{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.header_home a:link, .header_about a:link, .header_courses a:link,
+.header_home a:visited, .header_about a:visited, .header_courses a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+.header_home a:hover, .header_home a:focus, .header_about a:hover, 
+.header_about a:focus, .header_courses a:hover, .header_courses a:focus{
+    text-decoration: underline;
+}
+
+footer{
+    height: 40px; 
+    line-height: 40px;
+    background: black; 
+    color: white;
+    text-align: center;
+    vertical-align: text-bottom;
+}
+
+a.skip{
+    background: white;
+    left: 0;
+    padding: 6px;
+    position: absolute;
+    top: -40px;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 1;
+}
+  
+a.skip:focus{
+    top: 20px;
+    color: black;
+    text-decoration-style: solid;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
