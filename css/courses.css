@@ -52,16 +52,16 @@
     color: white
 }
 
-@media only screen and (min-width: 500px){
+@media only screen and (min-width: 600px){
     .gallery{
         flex-direction: row;
     }
     .gallery .image{
-        max-width: 45%;
+        max-width: 40%;
     }
 }
 
-@media only screen and (min-width: 800px){
+@media only screen and (min-width: 850px){
 
     .gallery .image{
         max-width: 25%;
