@@ -4,7 +4,7 @@
 
 .gallery{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     width: 90%;
     margin: auto;
     gap: 15px;
@@ -12,5 +12,28 @@
 
 .gallery img{
     border: 3px solid white;
-    width: 100%;
+    max-width: 100%;
+}
+
+
+/*Query for iPad*/
+@media only screen and (min-width: 480px){
+    .gallery{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 90%;
+        margin: auto;
+        gap: 15px;        
+    }
+}
+
+/*Query for desktop*/
+@media only screen and (min-width: 800px){
+    .gallery{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 90%;
+        margin: auto;
+        gap: 15px;        
+    }
 }

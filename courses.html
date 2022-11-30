@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/courses.css">
         <link rel="icon" href="images/favicon.ico">
+        <script src = "js\courses.js"></script>
     <title>Final Project</title>	
     </head>
     <body>
@@ -22,21 +23,111 @@
         </header>   
         <main id = "skip">
             <h1>Courses Taken</h1>
+            <div id = courseInfo></div>
             <div class="gallery">
-                <img src="images/engr101.png" alt="Engineering 101 is the first coding class
-                I have ever taken. I took it Fall 2020.">
-                <img src="images/eecs203.jpg" alt="I took discrete math Winter 2021. It was a fun class.">
-                <img src="images/eecs280.png" alt="I took EECS 280 Winter 2021 along with discrete math.">
-                <img src="images/eecs281.jpg" alt="I took EECS 281 in Fall 2021. What a fun class!">
-                <img src="images/eecs285.png" alt="I took EECS 285 in Fall 2021">
-                <img src="images/eecs370.jpg" alt="I took EECS 370 in Winter 2022">
-                <img src="images/eecs376.png" alt="I took EECS 376 in Winter 2022.
-                I hate Turing reductions with a passion!">
-                <img src="images/eecs388.png" alt="I am currently taking EECS 388. Fun and interesting
-                both decsribe this class!">
-                <img src="images/eecs485.png" alt="I am currently taking EECS 485. What a challenging class!">
+                <div class="image">
+                    <div class = "imgBox"><img src="images/engr101.png" id = "eng" alt="Engineering 101 is the first coding class
+                        I have ever taken. I took it Fall 2020.">
+                    </div>
+                    <div class = "imageOverlay">
+                        <h1 class = "imageTitle">Engr 101</h1>
+                        <h3 class = "imageInfo">Engineering 101 was my first. coding class.<br>
+                            We learned to code in MATLAB and C++.
+                        </h3>
+                    </div>
+                </div>
+                <div class="image">
+                    <div class = "imgBox">
+                        <img src="images/eecs203.jpg" alt="I took discrete math Winter 2021. It was a fun class.">
+                    </div>
+                    <div class="imageOverlay">
+                        <h1 class = "imageTitle">EECS 203</h1>
+                        <h3 class = "imageInfo">Discrete Math was the class that
+                            made me fall in love with computer science. <br>
+                            I enjoyed the logic that went into this class.
+                        </h3>
+                    </div>
+                </div>
+                <div class="image">
+                    <div class = "imgBox">
+                        <img src="images/eecs280.png" alt="I took EECS 280 Winter 2021 along with discrete math.">
+                    </div>
+                    <div class="imageOverlay">
+                        <h1 class = "imageTitle">EECS 280</h1>
+                        <h3 class = "imageInfo">EECS 280 expanded upon my C++ coding skills.</h3>
+                    </div>
+                </div>
+                <div class="image">
+                    <div class = "imgBox">
+                        <img src="images/eecs281.jpg" alt="I took EECS 281 in Fall 2021. What a fun class!">
+                    </div>
+                    <div class="imageOverlay">
+                        <h1 class = "imageTitle">EECS 281</h1>
+                        <h3 class = "imageInfo">EECS 281 combined my favorite aspect of discrete
+                            math (time complexity) with programming.
+                        </h3>
+                    </div>
+                </div>
+                <div class="image">
+                    <div class = "imgBox">
+                        <img src="images/eecs285.png" alt="I took EECS 285 in Fall 2021">
+                    </div>
+                    
+                    <div class="imageOverlay">
+                        <h1 class = "imageTitle">EECS 285</h1>
+                        <h3 class = "imageInfo">In EECS 285, I learned how to code in Java.</h3>
+                    </div>
+                </div>
+                <div class="image">
+                    <div class = "imgBox">
+                        <img src="images/eecs370.jpg" alt="I took EECS 370 in Winter 2022">
+                    </div>
+                    
+                    <div class="imageOverlay">
+                        <h1 class = "imageTitle">EECS 370</h1>
+                        <h3 class = "imageInfo">EECS 370 taught us foundational computer organization.
+                        </h3>
+                    </div>
+                </div>
+                <div class="image">
+                    <div class = "imgBox">
+                        <img src="images/eecs376.png" alt="I took EECS 376 in Winter 2022.
+                        I hate Turing reductions with a passion!">
+                    </div>
+                    
+                    <div class="imageOverlay">
+                        <h1 class = "imageTitle">EECS 376</h1>
+                        <h3 class = "imageInfo">I loved all the computer science theory we learned.
+                            <br> However, I hate Turing reductions.
+                        </h3>
+                    </div>
+                </div>
+                <div class="image">
+                    <div class = "imgBox">
+                        <img src="images/eecs388.png" alt="I am currently taking EECS 388. Fun and interesting
+                        both decsribe this class!">
+                    </div>
+                    
+                    <div class="imageOverlay">
+                        <h1 class = "imageTitle">EECS 388</h1>
+                        <h3 class = "imageInfo">Intro to Computer Security has the most
+                            fun projects in EECS.
+                        </h3>
+                    </div>
+                </div>
+                <div class="image">
+                    <div class = "imgBox">
+                        <img src="images/eecs485.png" alt="I am currently taking EECS 485. What a challenging class!">
+                    </div>
+                    
+                    <div class="imageOverlay">
+                        <h1 class = "imageTitle">EECS 485</h1>
+                        <h3 class = "imageInfo">This class has made me incredibly confident
+                            that I can succeed in the real world.
+                        </h3>
+                    </div>
+                </div>
             </div>
-            <p>Classes in order:</p>
         </main>
         <footer>
             <p>&copy; Joshua Laya - 2022, University of Michigan</p>
